@@ -4,7 +4,7 @@
 @stop
 
 @section('content')
-<form method="POST" action="/ventas">
+<form method="POST" action="ventas">
 	{{ csrf_field() }}
 	<ul class="list-inline">
 		<label for="cus">Consulta de Sacos</label>

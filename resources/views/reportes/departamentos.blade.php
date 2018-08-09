@@ -15,7 +15,7 @@
 				@endif
 			</div>
 			<div class="col-sm-6 pull-right">
-				<form class="form-inline text-right" method="POST" action="/reportes/departamentos">
+				<form class="form-inline text-right" method="POST" action="reportes/departamentos">
 				{{ csrf_field() }}
 				  <div class="form-group">
 				    <label for="name">Año</label>
@@ -69,7 +69,7 @@
 				<h1>Sacos de Guano por Departamento</h1>
 			</div>
 			<div class="col-sm-6 pull-right">
-				<form class="form-inline text-right" method="POST" action="/reportes/departamentos">
+				<form class="form-inline text-right" method="POST" action="reportes/departamentos">
 				{{ csrf_field() }}
 				  <div class="form-group">
 				    <label for="name">Año</label>

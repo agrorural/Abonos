@@ -28,7 +28,7 @@
 
 	@section('content')
 
-	<a href="/ventas">Hacer otra busqueda</a>
+	<a href="ventas">Hacer otra busqueda</a>
 	<hr />
 		@if($venta)
 			<div id="map" style="height:500px">	
