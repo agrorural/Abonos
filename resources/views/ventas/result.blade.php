@@ -33,8 +33,8 @@
 		@if($venta)
 			<div id="map" style="height:500px">	
 			</div>
-			<script src="http://momentjs.com/downloads/moment-with-locales.js"></script>
-		   	<script src="http://momentjs.com/downloads/moment-with-locales.js"></script>
+			<!-- <script src="https://momentjs.com/downloads/moment-with-locales.js"></script> -->
+		   	<script src="https://momentjs.com/downloads/moment-with-locales.js"></script>
 		    <script>
 				function initMap() {	
 				  var cusVen = "{{ $venta->cusVen }}";
